@@ -22,7 +22,6 @@ const tweet = async () => {
 
 
 const job = new Cronjob("0 0-23 * * *", () => {
-    console.log("test")
     tweet().then();
 })
 job.start();
