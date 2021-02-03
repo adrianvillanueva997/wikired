@@ -22,7 +22,6 @@ jobs:
       - name: Install & Tests
         run: |
           npm install
-      - name: Checkout repository
       # Initializes the CodeQL tools for scanning.
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v1
